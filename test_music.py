@@ -16,6 +16,13 @@ ser.write('\x8c\x00\x05C\x10H\x18J\x08L\x10O\x20')
 ser.write('\x8d\x00')
 time.sleep(1.6) # wait for the song to complete
 
+# Program a five-note start song into Roomba.
+ser.write('\x8c\x00\x05C\x10H\x10H\x18J\x08L\x10O\x20')
+
+# Play the song we just programmed.
+ser.write('\x8d\x00')
+time.sleep(4) # wait for the song to complete
+
 # Leave the Roomba in passive mode; this allows it to keep
 #  running Roomba behaviors while we wait for more commands.
 ser.write('\x80')

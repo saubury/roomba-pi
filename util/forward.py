@@ -17,25 +17,8 @@ bot.safe()
 
 # directly set the motor speeds ... easier if using a joystick
 bot.drive_direct(100, 100)
-
-
 bot.drive_straight(50)
-time.sleep(1)
-
-
-bot.drive_straight(-50)
-time.sleep(1)
-
-
-# turn an angle [degrees] at a speed: 45 deg, 100 mm/sec
-bot.turn_angle(10, 50)
-
-time.sleep(2)
-
-bot.turn_angle(-10, 50)
-
-time.sleep(2)
-
+time.sleep(5)
 
 
 

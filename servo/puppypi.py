@@ -2,9 +2,9 @@ from picamera.array import PiRGBArray
 from picamera import PiCamera
 import argparse
 import time
-import cv2
+# import cv2
 import sys
-import imutils
+# import imutils
 import RPi.GPIO as GPIO
 import time
 
@@ -12,8 +12,8 @@ import time
 import puppypi_config
 import puppypi_util
 import puppypi_servo
-import puppypi_video
-import puppypi_aws
+# import puppypi_video
+# import puppypi_aws
 import puppypi_button
 
 

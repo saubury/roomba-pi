@@ -1,9 +1,9 @@
 # Project Imports
 import puppypi_config
 import puppypi_util
-import puppypi_aws
+# import puppypi_aws
 import puppypi_servo
-import puppypi_video
+# import puppypi_video
 import RPi.GPIO as GPIO
 import datetime
 import time
